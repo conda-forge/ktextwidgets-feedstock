@@ -1,5 +1,5 @@
 {% set name = "ktextwidgets" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/ktextwidgets-{{ version }}.tar.xz
-  sha256: 0e94c36c7d836450d4c52bd933c492235ea0071b15702c302aed003e8400bbfd
+  sha256: dedad270e03688f937b72e683a249bad464a22df3f97a1cd1bc3be400ec31a11
 
 build:
   number: 0
